@@ -83,7 +83,8 @@ final class FormViewModel: ObservableObject {
             }
         }
         
-        print("DEFAULT VALUES:", values)
+       // print("DEFAULT VALUES:", values)
+        print(values)
     }
     
     
@@ -98,7 +99,8 @@ final class FormViewModel: ObservableObject {
             ValidationEngine.validate(field: field,values: values,errors: &errors)
         }
         
-        print("VALIDATION ERRORS:", errors)
+      //  print("VALIDATION ERRORS:", errors)
+        print(values)
         
         return errors.isEmpty
     }
