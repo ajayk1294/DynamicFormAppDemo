@@ -100,7 +100,7 @@ final class FormViewModel: ObservableObject {
         }
         
       //  print("VALIDATION ERRORS:", errors)
-        print(values)
+        print(errors)
         
         return errors.isEmpty
     }
